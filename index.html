@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agape Consulting | Software Development Consulting</title>
+  <meta name="description" content="Agape Consulting delivers expert software development consulting services — from architecture and engineering to product strategy and team augmentation." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav-wrapper" id="nav">
+    <nav class="nav container">
+      <a href="#" class="logo">Agape<span>Consulting</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn btn-outline">Get in Touch</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <p class="hero-eyebrow">Software Development Consulting</p>
+      <h1>We build software that <em>moves companies forward.</em></h1>
+      <p class="hero-sub">Agape Consulting partners with startups and enterprises to architect, build, and scale software — with clarity, craft, and care.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+        <a href="#services" class="btn btn-ghost">Our Services</a>
+      </div>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <!-- LOGOS / TRUST BAR -->
+  <section class="trust-bar">
+    <div class="container">
+      <p class="trust-label">Trusted by teams at</p>
+      <div class="trust-logos">
+        <span>Series A Startups</span>
+        <span>Growth-Stage SaaS</span>
+        <span>Enterprise Engineering Teams</span>
+        <span>Digital Transformation Initiatives</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What We Do</p>
+        <h2>End-to-end software consulting</h2>
+        <p class="section-sub">From product discovery to production deployment — we bring senior-level expertise to your most critical software challenges.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 6l9-3 9 3v6c0 5-4 8.5-9 10-5-1.5-9-5-9-10V6z"/></svg>
+          </div>
+          <h3>Software Architecture</h3>
+          <p>System design, microservices, API design, data modeling, and cloud-native architecture that scales with your business.</p>
+          <ul>
+            <li>Architecture reviews & audits</li>
+            <li>Cloud infrastructure design (AWS / GCP)</li>
+            <li>API & integration strategy</li>
+            <li>Technical debt assessment</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Full-Stack Development</h3>
+          <p>End-to-end feature development across web, mobile, and backend — shipped with quality and velocity.</p>
+          <ul>
+            <li>React, Next.js, TypeScript frontends</li>
+            <li>Node.js, Python, Go backends</li>
+            <li>Database design & optimization</li>
+            <li>CI/CD pipeline setup</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Product Engineering</h3>
+          <p>Bridge the gap between product vision and technical execution with engineering leadership that understands the business.</p>
+          <ul>
+            <li>Technical product management</li>
+            <li>Roadmap prioritization</li>
+            <li>Rapid prototyping & MVPs</li>
+            <li>Feature scoping & estimation</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Team Augmentation</h3>
+          <p>Embed senior engineers directly into your team to accelerate delivery without the overhead of full-time hiring.</p>
+          <ul>
+            <li>Senior engineer placement</li>
+            <li>Fractional CTO / tech lead</li>
+            <li>Code review & mentorship</li>
+            <li>Engineering culture building</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Data & AI Integration</h3>
+          <p>Unlock the value of your data with modern data engineering, analytics pipelines, and AI-powered product features.</p>
+          <ul>
+            <li>Data pipeline architecture</li>
+            <li>LLM & AI feature integration</li>
+            <li>Analytics & BI instrumentation</li>
+            <li>Data warehouse design</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>DevOps & Platform Engineering</h3>
+          <p>Reliable infrastructure, automated deployments, and platform foundations that let your team ship with confidence.</p>
+          <ul>
+            <li>Kubernetes & container orchestration</li>
+            <li>Observability & monitoring</li>
+            <li>Security & compliance hardening</li>
+            <li>Cost optimization</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">How We Work</p>
+        <h2>A process built for clarity</h2>
+        <p class="section-sub">No black boxes, no surprises. We operate with transparency at every step.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Discovery</h3>
+            <p>We start by listening. Deep dives into your business goals, technical landscape, team, and constraints to form an honest picture of where you are and where you need to go.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Strategy & Scoping</h3>
+            <p>We deliver a clear engagement plan with defined scope, milestones, and success criteria. No vague retainers — just an actionable roadmap you can hold us to.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Execution</h3>
+            <p>We build with your team, not around it. Weekly syncs, shared project visibility, and continuous delivery ensure nothing slips through the cracks.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Handoff & Growth</h3>
+            <p>We document, train, and transition. Our goal is to leave your team more capable than when we arrived — not to create dependency on us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <p class="section-eyebrow">About Us</p>
+        <h2>Built on expertise, driven by purpose.</h2>
+        <p>Agape Consulting was founded on a simple belief: great software is built by people who genuinely care — about the craft, about outcomes, and about the people they're building for.</p>
+        <p>We're a boutique consulting firm that combines the rigor of enterprise engineering with the agility of a startup. Our consultants are senior engineers and architects with experience across industries — from fintech to healthcare to SaaS.</p>
+        <p>The name <em>Agape</em> — the Greek word for unconditional care — reflects how we approach every engagement. We show up fully, hold ourselves to the highest standard, and treat your problems as if they were our own.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-value">10+</span>
+            <span class="stat-label">Years Combined Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">50+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Our Values</h4>
+          <ul class="values-list">
+            <li><strong>Honesty first.</strong> We give you the real picture, even when it's hard to hear.</li>
+            <li><strong>Craft over shortcuts.</strong> We write software we're proud to put our name on.</li>
+            <li><strong>Business outcomes over billable hours.</strong> Your success is the only metric that matters.</li>
+            <li><strong>Knowledge transfer always.</strong> We build up your team, not dependency on ours.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Get in Touch</p>
+        <h2>Let's build something great.</h2>
+        <p class="section-sub">Tell us about your project and we'll get back to you within one business day.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Company name (optional)" />
+          </div>
+          <div class="form-group">
+            <label for="service">What can we help with?</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option>Software Architecture</option>
+              <option>Full-Stack Development</option>
+              <option>Product Engineering</option>
+              <option>Team Augmentation</option>
+              <option>Data & AI Integration</option>
+              <option>DevOps & Platform Engineering</option>
+              <option>Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell us about your project</label>
+            <textarea id="message" name="message" rows="5" placeholder="Describe your challenge, goals, and timeline..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note">We respond within 1 business day. No spam, ever.</p>
+        </form>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>agape-consulting@outlook.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Vancouver, BC<br/>Available globally, remote-first</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Response Time</h4>
+              <p>Within 1 business day</p>
+            </div>
+          </div>
+          <div class="contact-tagline">
+            <p>"The right technical partner can be the difference between a product that struggles and one that thrives."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">Agape<span>Consulting</span></a>
+        <p>Expert software development consulting for companies that care about doing it right.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Software Architecture</a></li>
+            <li><a href="#services">Full-Stack Development</a></li>
+            <li><a href="#services">Product Engineering</a></li>
+            <li><a href="#services">Team Augmentation</a></li>
+            <li><a href="#services">Data & AI Integration</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Agape Consulting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
